@@ -1,0 +1,349 @@
+body{
+  background: white;
+}
+
+.kolaBox{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: #25A9FC;
+}
+
+.kolaHead{
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #A6BECF;
+  border-radius: 50%;
+}
+
+.kolaHead-copy{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #A6BECF;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.kolaLeft-ear{
+  position: absolute;
+  width: 60%;
+  height: 65%;
+  left: -20%;
+  top: 5%;
+  background: #A6BECF;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.kolaRight-ear{
+  position: absolute;
+  width: 60%;
+  height: 65%;
+  right: -20%;
+  top: 5%;
+  background: #A6BECF;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.kolaInner-ear{
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #819CAF;
+}
+
+.kolaEye-left{
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  left: 21%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.kolaEye-right{
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  right: 21%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.kolaPupil{
+ position: absolute;
+ width: 28%;
+ height: 30%;
+ top: 35%;
+ left: 36%;
+ border-radius: 50%;
+ background: #27354A;
+}
+.kolaNose{
+  position: absolute;
+  background: #BE845F;
+  width: 25%;
+  height: 20%;
+  left: 37%;
+  top: 45%;
+  border-radius: 50px;
+  z-index: 4;
+}
+/*
+.kolaHair-left{
+  position: absolute;
+  top: -8%;
+  left: 30%;
+  width: 20%;
+  height: 20%;
+  background: #A6BECF;
+  -webkit-clip-path: polygon( 50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+*/
+/*.kolaHair-right{
+  position: absolute;
+  top: -4%;
+  left: 48%;
+  width: 20%;
+  height: 20%;
+  background: #A6BECF;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+*/
+/*Bunny CSS*/
+.bunnyBox{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: #2EEF4A;
+}
+
+.bunnyHead{
+  position: absolute;
+  top: 25.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: white;
+  border-radius: 50%;
+}
+
+.bunnyHead-copy{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #C6C9C6;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.bunnyLeft-ear{
+  position:absolute;
+  top: -35%;
+  left: -5%;
+  width: 70%;
+  height: 100%;
+  background: #C6C9C6;
+-webkit-clip-path: ellipse(18% 40% at 49% 51%);
+clip-path: ellipse(18% 40% at 49% 51%);
+}
+
+.bunnyRight-ear{
+  position: absolute;
+  top: -35%;
+  left: 35%;
+  width: 70%;
+  height: 100%;
+  background: #C6C9C6;
+-webkit-clip-path: ellipse(18% 40% at 49% 51%);
+clip-path: ellipse(18% 40% at 49% 51%);
+}
+
+.bunnyInner-ear{
+  position: absolute;
+  border-radius: 50%;
+  width: 50%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background:pink;
+}
+
+.bunnyEye-left{
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  left: 15%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.bunnyEye-right{
+  position: absolute;
+  background: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  right: 21%;
+  left: 55%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.bunnyPupil{
+ position: absolute;
+ width: 28%;
+ height: 30%;
+ top: 15%;
+ left: 50%;
+ bottom: 45%;
+ border-radius: 50%;
+ background: #27354A;
+}
+
+.bunnyNose{
+  position: absolute;
+  background: #F7B6C2;
+  width: 20%;
+  height: 15%;
+  left: 40%;
+  top: 55%;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+/* Owl CSS */
+
+.owlBox{
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: #C000F5;
+}
+
+.owlHead{
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background: #A6BECF;
+  border-radius: 50%;
+}
+
+.owlHead-copy{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #924D3B;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.owlLeft-ear{
+  position: absolute;
+  left: 15%;
+  top: -10%;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #924D3B;
+  border-radius: 50%;
+}
+
+.owlRight-ear{
+  position: absolute;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #924D3B;
+  right: 15%;
+  top: -10%;
+  border-radius: 50%;
+}
+
+.owlInner-ear{
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: #819CAF;
+}
+
+.owlEye-left{
+  position: absolute;
+  background: white;
+  width: 40%;
+  height: 43%;
+  top: 25%;
+  left: 14%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.owlEye-right{
+  position: absolute;
+  background: white;
+  width: 40%;
+  height: 43%;
+  top: 25%;
+  right: 12%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.owlPupil{
+ position: absolute;
+ width: 70%;
+ height: 70%;
+ top: 18%;
+ left: 15%;
+ border-radius: 50%;
+ background: #27354A;
+}
+
+.owlNose{
+  position: absolute;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #F77C2B;
+  left: 34.5%;
+  top: 57.5%;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+.otherPupil{
+position: absolute;
+ width: 45%;
+ height: 45%;
+ top: 13%;
+ left: 4%;
+ border-radius: 50%;
+ background: gray;
+}
