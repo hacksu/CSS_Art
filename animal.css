@@ -331,7 +331,7 @@ clip-path: ellipse(18% 40% at 49% 51%);
   position: absolute;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 100px solid #F77C2B;
+  border-top: 100px solid blue;
   left: 34.5%;
   top: 57.5%;
   border-radius: 50px;
