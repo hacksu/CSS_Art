@@ -1,5 +1,5 @@
 body{
-  background: white;
+  background: teal;
 }
 
 .kolaBox{
@@ -37,7 +37,7 @@ body{
   height: 65%;
   left: -20%;
   top: 5%;
-  background: #A6BECF;
+  background: blue;
   border-radius: 50%;
   z-index: 1;
 }
@@ -48,7 +48,7 @@ body{
   height: 65%;
   right: -20%;
   top: 5%;
-  background: #A6BECF;
+  background: blue;
   border-radius: 50%;
   z-index: 1;
 }
