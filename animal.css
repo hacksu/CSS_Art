@@ -26,7 +26,8 @@ body{
   width: 100%;
   height: 100%;
   position: absolute;
-  background: #A6BECF;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,184,10,1) 53%, rgba(255,217,0,1) 100%);
   border-radius: 50%;
   z-index: 2;
 }
@@ -37,7 +38,8 @@ body{
   height: 65%;
   left: -20%;
   top: 5%;
-  background: #A6BECF;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,184,10,1) 53%, rgba(255,217,0,1) 100%);
   border-radius: 50%;
   z-index: 1;
 }
@@ -48,7 +50,8 @@ body{
   height: 65%;
   right: -20%;
   top: 5%;
-  background: #A6BECF;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(137,184,10,1) 53%, rgba(255,217,0,1) 100%);
   border-radius: 50%;
   z-index: 1;
 }
@@ -60,7 +63,7 @@ body{
   height: 80%;
   top: 10%;
   left: 10%;
-  background: #819CAF;
+  background: #800000;
 }
 
 .kolaEye-left{
@@ -92,11 +95,11 @@ body{
  top: 35%;
  left: 36%;
  border-radius: 50%;
- background: #27354A;
+ background:  #800000;
 }
 .kolaNose{
   position: absolute;
-  background: #BE845F;
+  background:   #808000;
   width: 25%;
   height: 20%;
   left: 37%;
